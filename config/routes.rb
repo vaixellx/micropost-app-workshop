@@ -1,5 +1,7 @@
 MicropostAppWorkshop::Application.routes.draw do
 
+  root :to => "microposts#index"
+
   resources :users , :except => [:destroy]
   resources :microposts, :only => [:index, :create, :destroy]
   resources :relationships, :only => [:create, :destroy]
