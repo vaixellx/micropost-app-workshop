@@ -19,7 +19,6 @@ describe Micropost do
 
   context "Methods" do
     it { should respond_to(:user) }
-    it { should respond_to(:user_id) }
     it { should respond_to(:content) }
   end
 

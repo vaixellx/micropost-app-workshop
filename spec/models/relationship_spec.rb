@@ -19,9 +19,7 @@ describe Relationship do
 
   context "Methods" do
     it { should respond_to(:follower) }
-    it { should respond_to(:follower) }
     it { should respond_to(:followed) }
-    it { should respond_to(:followed_id) }
   end
 
   context "Make new Relationship" do
