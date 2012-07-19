@@ -44,6 +44,5 @@ gem 'authlogic'
 group :development, :test do
   gem "rspec-rails", "2.11.0"
   gem "shoulda-matchers", "1.2.0"
+  gem "forgery", '0.5.0'
 end
-
-
