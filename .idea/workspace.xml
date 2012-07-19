@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a34906-f805-4934-9066-f31607f9b8a6" name="Default" comment="Create new Rails application named micropost-app-workshop">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+    <list default="true" id="11a34906-f805-4934-9066-f31607f9b8a6" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/micropost-app-workshop.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
@@ -90,7 +87,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="29" selection-end="29" vertical-scroll-proportion="0.049535602">
+            <state line="10" column="28" selection-start="231" selection-end="231" vertical-scroll-proportion="0.44582042">
               <folding />
             </state>
           </provider>
@@ -183,8 +180,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="109" />
+    <option name="x" value="231" />
+    <option name="y" value="172" />
     <option name="width" value="1152" />
     <option name="height" value="656" />
   </component>
@@ -757,11 +754,15 @@
       <created>1342722346255</created>
       <updated>1342722346255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Remove .idea">
+      <created>1342726834289</created>
+      <updated>1342726834289</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="109" width="1152" height="656" extended-state="0" />
+    <frame x="231" y="172" width="1152" height="656" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291592" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -821,7 +822,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create login/logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove .idea" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -842,6 +843,7 @@
     <MESSAGE value="Assign relation to each model" />
     <MESSAGE value="Set root url, create sign_up, all_user, show_user page" />
     <MESSAGE value="Create login/logout" />
+    <MESSAGE value="Remove .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -954,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="29" selection-end="29" vertical-scroll-proportion="0.049535602">
+        <state line="10" column="28" selection-start="231" selection-end="231" vertical-scroll-proportion="0.44582042">
           <folding />
         </state>
       </provider>
