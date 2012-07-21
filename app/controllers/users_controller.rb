@@ -1,10 +1,10 @@
 class UsersController < ApplicationController
   def index
-      @users = User.all
+    @users = User.all
   end
 
   def show
-      @user = User.find(params[:id])
+    @user = User.find(params[:id])
   end
 
   def new
@@ -12,16 +12,30 @@ class UsersController < ApplicationController
   end
 
   def create
-      @user = User.new(params[:user])
+    @user = User.new(params[:user])
 
-      if @user.save
-        flash[:notice] = "Sign up successfully."
-        redirect_to root_url
-      else
-        render action: "new"
-      end
+    if @user.save
+      flash[:notice] = "Sign up successfully."
+      redirect_to root_url
+    else
+      render action: "new"
+    end
   end
 
   def edit
+    @user = current_user
   end
+
+  def update
+    @user = current_user
+
+    if @user.update_attributes(params[:user])
+      flash[:notice] = "Profile was updated."
+      redirect_to root_url
+    else
+      render action: "edit"
+    end
+  end
+
+
 end

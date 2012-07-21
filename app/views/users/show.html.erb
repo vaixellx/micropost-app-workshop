@@ -1,3 +1,8 @@
 <div class="user-information">
   <span class="user-name"><%= @user.name %></span>
+  <%= @user.email %>
+
+  <% if @user.id == current_user.id %>
+      <div class="edit-profile-button"><%= link_to "Edit profile", edit_profile_url %></div>
+  <% end %>
 </div>
