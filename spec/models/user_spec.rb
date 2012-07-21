@@ -10,8 +10,8 @@ describe User do
   context "Associations" do
     it { should have_many(:relationships) }
     it { should have_many(:following_users).through(:relationships) }
-    it { should have_many(:reverse_relations).class_name('Relationship') }
-    it { should have_many(:followed_users).through(:reverse_relations) }
+    it { should have_many(:reverse_relationships).class_name('Relationship') }
+    it { should have_many(:follower_users).through(:reverse_relationships) }
     it { should have_many(:microposts) }
   end
 
